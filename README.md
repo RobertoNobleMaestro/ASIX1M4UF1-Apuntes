@@ -1,9 +1,5 @@
 # ASIX1M4UF1-Apuntes
 
-# Primera semana (Markdown) 
-
-Primero repositorio de apuntes en ASIX1
-
 ## Primer capitulo: MARKDOWN
 
 Este texto esta en  *cursiva*
@@ -53,4 +49,17 @@ Esto sirve para visualizar el codigo y que no se ejecute:
 
 -[] Opción C
 
-# Segunda semana (HTML)
+## Segunda semana (HTML)
+
+```<p> Contenido visible</p>```
+### Anidar etiquetas
+
+Anidar significa añadir una etiqueta dentro de otro o estructura.
+
+Ej:
+```
+<p>hola buenas <strong>tardes</strong></p>
+```
+La etiqueta ```<img>``` no se puede anidar, Su estructura típica es simplemente.
+
+```<img src="ruta_de_la_imagen" alt="texto_alternativo">```
