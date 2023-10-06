@@ -52,6 +52,7 @@ Esto sirve para visualizar el codigo y que no se ejecute:
 ## Segunda semana (HTML)
 
 ```<p> Contenido visible</p>```
+
 ### Anidar etiquetas
 
 Anidar significa añadir una etiqueta dentro de otro o estructura.
@@ -60,6 +61,42 @@ Ej:
 ```
 <p>hola buenas <strong>tardes</strong></p>
 ```
-La etiqueta ```<img>``` no se puede anidar, Su estructura típica es simplemente.
+La etiqueta ```<img>``` no se puede anidar, Su estructura típica es simplemente:
 
 ```<img src="ruta_de_la_imagen" alt="texto_alternativo">```
+
+```
+<!DOCTYPE html> <- Tipo de documento que es y el lenguaje que va a usar.
+<html lang="en"> <- Dentro de esta etiqueta es donde esta toda la estructura.
+<head> <- En esta etiqueta es donde metemos todo lo que no puede ver el visitante.
+    <meta charset="UTF-8"> <- Esta etiqueta asegura la correcta interpretación de caracteres especiales en la página web.
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <-Esta etiqueta meta establece la escala inicial y el ancho de la ventana gráfica para optimizar la visualización en dispositivos móviles.
+    <title>Document</title> <- en esta etiqueta se pone el titulo de la pagina (en la pestaña)
+</head>
+<body> <- Aqui es donde se pondra toda la estructura de la pagina 
+    
+</body>
+</html> 
+```
+
+- Etiquetas bloque
+**Todo lo que pongamos dentro de la etiqueta bloque se pondrá debajo el contenido cuando renderizemos en el navegador.**
+
+ * Tablas
+ * Titulos
+ * Parrafos
+ * Listas
+
+- Etiquetas linea
+  **Todo el contenido es una unica linea**
+  
+ * Imagenes
+ * Enlaces
+ * Estilos
+
+#### Etiquetas HTML
+
+* Esto es un encabezado ```<h1>Lorem ipsum dolor sit</h1>```.
+* Esto es un subtitulo ```<h3>amet consectetur adipisicing elit. Debitis qui accusantium maiores reprehenderit.</h3>```
+* Esto es un parrafo ```<p>Molestias eos distinctio repellendus, accusamus voluptatibus fugit reprehenderit</p>```
+* 
