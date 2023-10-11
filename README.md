@@ -80,23 +80,28 @@ La etiqueta ```<img>``` no se puede anidar, Su estructura típica es simplemente
 ```
 
 - Etiquetas bloque
-**Todo lo que pongamos dentro de la etiqueta bloque se pondrá debajo el contenido cuando renderizemos en el navegador.**
 
- * Tablas
- * Titulos
- * Parrafos
- * Listas
+**Todo lo que pongamos dentro de la etiqueta bloque se pondrá debajo el contenido cuando renderizemos en el navegador.**
+    * Tablas
+    * Titulos
+    * Parrafos
+    * Listas
 
 - Etiquetas linea
-  **Todo el contenido es una unica linea**
-  
- * Imagenes
- * Enlaces
- * Estilos
+
+**Todo el contenido es una unica linea**
+    * Imagenes
+    * Enlaces
+    * Estilos
 
 #### Etiquetas HTML
 
 * Esto es un encabezado ```<h1>Lorem ipsum dolor sit</h1>```.
 * Esto es un subtitulo ```<h3>amet consectetur adipisicing elit. Debitis qui accusantium maiores reprehenderit.</h3>```
 * Esto es un parrafo ```<p>Molestias eos distinctio repellendus, accusamus voluptatibus fugit reprehenderit</p>```
-* 
+* Esto es una lista ordenada ```<ol>Lista ordenada<ol>```
+* Esto es un elemento de cualquier lista ```<li>Elemento<li>```
+* Esto es una lista desordenada ```<lu>Lista desordenada<lu>```
+* Esta etiqueta sirve para hacer un salto de linea ```<br>```
+* Sirve para poner un enlace (alt es para poner una descripción y target _blank es para abrir una pestaña al lado de las otras) ```<a href="https://www.google.com/" alt="Para ir a google" target="_blank">Google<a>```
+* Esto sirve para hacer una cita ```<><>```
