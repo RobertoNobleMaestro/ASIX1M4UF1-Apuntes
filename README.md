@@ -70,11 +70,12 @@ La etiqueta ```<img>``` no se puede anidar, Su estructura típica es simplemente
 <html lang="en"> <- Dentro de esta etiqueta es donde esta toda la estructura.
 <head> <- En esta etiqueta es donde metemos todo lo que no puede ver el visitante.
     <meta charset="UTF-8"> <- Esta etiqueta asegura la correcta interpretación de caracteres especiales en la página web.
+    <script src="https://kit.fontawesome.com/d58f8b3dda.js" crossorigin="anonymous"></script> <-- sirve para poner el paquete de iconos de fontawesome  
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <-Esta etiqueta meta establece la escala inicial y el ancho de la ventana gráfica para optimizar la visualización en dispositivos móviles.
     <title>Document</title> <- en esta etiqueta se pone el titulo de la pagina (en la pestaña)
 </head>
 <body> <- Aqui es donde se pondra toda la estructura de la pagina 
-    
+    <i class="fa-solid fa-phone"></i> <-- Icono de fontawesome
 </body>
 </html> 
 ```
@@ -100,8 +101,9 @@ La etiqueta ```<img>``` no se puede anidar, Su estructura típica es simplemente
 * Esto es un subtitulo ```<h3>amet consectetur adipisicing elit. Debitis qui accusantium maiores reprehenderit.</h3>```
 * Esto es un parrafo ```<p>Molestias eos distinctio repellendus, accusamus voluptatibus fugit reprehenderit</p>```
 * Esto es una lista ordenada ```<ol>Lista ordenada<ol>```
+* Esto sirve para subrayar un texto ```<u>Subrayar</u>```
 * Esto es un elemento de cualquier lista ```<li>Elemento<li>```
 * Esto es una lista desordenada ```<lu>Lista desordenada<lu>```
 * Esta etiqueta sirve para hacer un salto de linea ```<br>```
-* Sirve para poner un enlace (alt es para poner una descripción y target _blank es para abrir una pestaña al lado de las otras) ```<a href="https://www.google.com/" alt="Para ir a google" target="_blank">Google<a>```
-* Esto sirve para hacer una cita ```<><>```
+* Sirve para poner un enlace (alt es para poner una descripción y target _blank es para abrir una pestaña al lado de las otras) ```<a href="https://www.google.com/" alt="Para ir a google"     target="_blank">Google<a>```
+* Esto es un comentario para HTML ```<!--Hola-->```
