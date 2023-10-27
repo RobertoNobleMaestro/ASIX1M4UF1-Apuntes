@@ -105,5 +105,47 @@ La etiqueta ```<img>``` no se puede anidar, Su estructura típica es simplemente
 * Esto es un elemento de cualquier lista ```<li>Elemento<li>```
 * Esto es una lista desordenada ```<lu>Lista desordenada<lu>```
 * Esta etiqueta sirve para hacer un salto de linea ```<br>```
-* Sirve para poner un enlace (alt es para poner una descripción y target _blank es para abrir una pestaña al lado de las otras) ```<a href="https://www.google.com/" alt="Para ir a google"     target="_blank">Google<a>```
+* Sirve para poner un enlace (alt es para poner una descripción y target _blank es para abrir una pestaña al lado de las otras) ```<a href="https://www.google.com/" alt="Para ir a google" target="_blank">Google<a>```
 * Esto es un comentario para HTML ```<!--Hola-->```
+* Esta etiqueta sirve para hacer una linea horizontal ```<hr>```
+
+
+#### Como hacer una tabla
+
+```
+<body> 
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Puesto</th>
+                <th>Atleta</th>   
+                <th>Tiempo</th>
+            </tr>        
+        </thead>
+        <tbody>
+            <tr>
+                <td>1r</td>  
+                <td>Alejandro Perez</td>  
+                <td>2:01:15</td>  
+            </tr> 
+            <tr>
+                <td>2n</td>  
+                <td>Torcuato Garcia</td>  
+                <td>2:15:15</td>  
+            </tr> 
+            <tr>
+                <td>3r</td>  
+                <td>Wenseslao Perez</td>  
+                <td>3:12:05</td>  
+            </tr> 
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Puesto</th>
+                <th>Atleta</th>   
+                <th>Tiempo</th>
+            </tr>  
+        </tfoot>
+    </table>
+</body>
+```
