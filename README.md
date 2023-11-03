@@ -1,12 +1,12 @@
 # ASIX1M4UF1-Apuntes
 
-## Primer capitulo: MARKDOWN
+## Primer tema MARKDOWN
 
-Este texto esta en  *cursiva*
-Este texto esta en  _cursiva_
-Este texto esta en **negrita**
-Este texto esta en __negrita__
-Este texto esta en **_negrita y cursiva_**.
+Para hacer un texto en cursiva se hace así: *cursiva*
+Esta es otra variante para hacer un texto en cursiva: *cursiva*
+Para hacer un texto en negrita se hace así: **negrita**
+Esta es otra variante para hacer un texto en negrita se hace con dos _: **negrita**
+Este texto esta en negrita y en cursiva por lo tanto se hace con el * y con la_ ***negrita y cursiva***.
 
 1. Primera opción de menú.
 2. Segunda opción de menú.
@@ -14,16 +14,19 @@ Este texto esta en **_negrita y cursiva_**.
 
 * Primera opción de lista desordenada.
 * Segunda opción de lista desordenada.
+
 - Tercera opción de lista desordenada.
     1. Primer submenú
     2. Segundo submenú
-- Cuarta opción de lista desordenada.
-    * Primer submenú
-    * Segundo submenú
+* Cuarta opción de lista desordenada.
+  * Primer submenú
+  * Segundo submenú
+
 + Quinta opción de lista desordenada.
-+ Sexta opción de lista desordenada.
+* Sexta opción de lista desordenada.
 
 Esto sirve para visualizar el codigo y que no se ejecute:
+
 ```
 <html>
     <head>
@@ -33,6 +36,7 @@ Esto sirve para visualizar el codigo y que no se ejecute:
     </body>
 </html> 
 ```
+
 [Esto es un enlace](https://joan23.fje.edu "Enlace a la web del cole")
 ![Esto es una imagen del cielo](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-A3-Apuntes/blob/main/cielo.jpg "Este es el cielo de murcia")
 
@@ -49,7 +53,7 @@ Esto sirve para visualizar el codigo y que no se ejecute:
 
 -[] Opción C
 
-## Segunda semana (HTML)
+## Segundo tema HTML
 
 ```<p> Contenido visible</p>```
 
@@ -58,9 +62,11 @@ Esto sirve para visualizar el codigo y que no se ejecute:
 Anidar significa añadir una etiqueta dentro de otro o estructura.
 
 Ej:
+
 ```
-<p>hola buenas <strong>tardes</strong></p>
+<p>hola buenas<strong>tardes</strong></p>
 ```
+
 La etiqueta ```<img>``` no se puede anidar, Su estructura típica es simplemente:
 
 ```<img src="ruta_de_la_imagen" alt="texto_alternativo">```
@@ -80,18 +86,18 @@ La etiqueta ```<img>``` no se puede anidar, Su estructura típica es simplemente
 </html> 
 ```
 
-- Etiquetas bloque
+* Etiquetas bloque
 
 **Todo lo que pongamos dentro de la etiqueta bloque se pondrá debajo el contenido cuando renderizemos en el navegador.**
-    * Tablas
+    *Tablas
     * Titulos
-    * Parrafos
+    *Parrafos
     * Listas
 
-- Etiquetas linea
+* Etiquetas linea
 
 **Todo el contenido es una unica linea**
-    * Imagenes
+    *Imagenes
     * Enlaces
     * Estilos
 
@@ -108,7 +114,6 @@ La etiqueta ```<img>``` no se puede anidar, Su estructura típica es simplemente
 * Sirve para poner un enlace (alt es para poner una descripción y target _blank es para abrir una pestaña al lado de las otras) ```<a href="https://www.google.com/" alt="Para ir a google" target="_blank">Google<a>```
 * Esto es un comentario para HTML ```<!--Hola-->```
 * Esta etiqueta sirve para hacer una linea horizontal ```<hr>```
-
 
 #### Como hacer una tabla
 
@@ -147,5 +152,25 @@ La etiqueta ```<img>``` no se puede anidar, Su estructura típica es simplemente
             </tr>  
         </tfoot>
     </table>
+</body>
+```
+
+### Tercer tema CSS
+
+CSS se utiliza para dar estilo a la estructura HTML
+
+#### Maneras de aplicar css a HTML
+
+Hay tres maneras para aplicar css en HTML:
+
+1. Inline
+Esta manera de aplicar css se utiliza de manera directa en el css, se aplica en la etiqueta que tu quieras y se hace con style.
+
+Ejemplo:
+
+```
+<body>
+<p style="color:red"><-- Estos hace que se vea en rojo la letra
+</p>
 </body>
 ```
