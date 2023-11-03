@@ -2,11 +2,11 @@
 
 ## Primer tema MARKDOWN
 
-Para hacer un texto en cursiva se hace así: *cursiva*
-Esta es otra variante para hacer un texto en cursiva: *cursiva*
-Para hacer un texto en negrita se hace así: **negrita**
-Esta es otra variante para hacer un texto en negrita se hace con dos _: **negrita**
-Este texto esta en negrita y en cursiva por lo tanto se hace con el * y con la_ ***negrita y cursiva***.
+* Para hacer un texto en cursiva se hace así: *cursiva*
+* Esta es otra variante para hacer un texto en cursiva: *cursiva*
+* Para hacer un texto en negrita se hace así: **negrita**
+* Esta es otra variante para hacer un texto en negrita se hace con dos _: **negrita**
+* Este texto esta en negrita y en cursiva por lo tanto se hace con el * y con la_ ***negrita y cursiva***.
 
 1. Primera opción de menú.
 2. Segunda opción de menú.
@@ -157,20 +157,108 @@ La etiqueta ```<img>``` no se puede anidar, Su estructura típica es simplemente
 
 ### Tercer tema CSS
 
-CSS se utiliza para dar estilo a la estructura HTML
+CSS se utiliza para dar estilo a la estructura HTML.
 
 #### Maneras de aplicar css a HTML
 
 Hay tres maneras para aplicar css en HTML:
 
-1. Inline
-Esta manera de aplicar css se utiliza de manera directa en el css, se aplica en la etiqueta que tu quieras y se hace con style.
+##### 1. En linea
+
+Esta manera de aplicar css se utiliza de manera directa en el HTML, se aplica en la etiqueta que tu quieras y se hace con style.
 
 Ejemplo:
 
 ```
 <body>
-<p style="color:red"><-- Estos hace que se vea en rojo la letra
+<p style="color:red"> <-- Estos hace que se vea en rojo la letra
 </p>
 </body>
 ```
+
+##### 2. Interno
+
+Al aplicar de esta manera el css en el HTML se aplicara solamente al documento y por lo tanto si hay más HTML's no les afectará.
+
+```
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <style>
+        tbody{
+            color: #00ffff;
+        }    
+    </style>
+</head>
+<body> 
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Puesto</th>
+                <th>Atleta</th>   
+                <th>Tiempo</th>
+            </tr>        
+        </thead>
+        <tbody>
+            <tr>
+                <td>1r</td>  
+                <td>Alejandro Perez</td>  
+                <td>2:01:15</td>  
+            </tr> 
+            <tr>
+                <td>2n</td>  
+                <td>Torcuato Garcia</td>  
+                <td>2:15:15</td>  
+            </tr> 
+            <tr>
+                <td>3r</td>  
+                <td>Wenseslao Perez</td>  
+                <td>3:12:05</td>  
+            </tr> 
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Puesto</th>
+                <th>Atleta</th>   
+                <th>Tiempo</th>
+            </tr>  
+        </tfoot>
+    </table>
+</body>
+</html>
+```
+
+##### 3. Externo
+
+Este se utiliza desde otro archivo CSS afectará este archivo a todos los HTML que estén vinculados.
+
+Se vincula de la siguiente manera: 
+
+###### ID (Atributo único)
+
+Sólo puede ser usado una vez
+
+En HTML
+```
+<a id="learn-code" href="https://www.codecademy.com">Click here to learn to code!</a>
+```
+
+En CSS
+```
+#learn-code {
+color: #2e69a3;  
+}
+```
+
+
+
+
+El cambio de color se puede hacer de las siguientes maneras:
+
+1. Ejemplo de RGB numérico: ```<p style="color: rgb(255,0,0)">Numerico</p>```
+2. Ejemplo de RGB hexadecimal:```<p style="color: #ff0000">Hexadecimal</p>```
+3. Ejemplo de RGB poniendo el nombre: ```<p style="color: red">Nombre</p>```
+
