@@ -20,7 +20,7 @@ Para hacer una lista desordenada hay que poner un asterisco detrás del texto o 
 * Segunda opción de lista desordenada.
 
 
-Este es un ejemplo de como se podria combinar las dos maneras:
+Este es un ejemplo de como se podria combinar las dos maneras de hacer listas:
 
 - Tercera opción de lista desordenada.
     1. Primer submenú
@@ -31,15 +31,6 @@ Este es un ejemplo de como se podria combinar las dos maneras:
 + Quinta opción de lista desordenada.
 * Sexta opción de lista desordenada.
 
-´´´- Tercera opción de lista desordenada.
-    1. Primer submenú
-    2. Segundo submenú
-* Cuarta opción de lista desordenada.
-  * Primer submenú
-  * Segundo submenú
-+ Quinta opción de lista desordenada.
-* Sexta opción de lista desordenada.
-´´´
 
 
 Esto sirve para visualizar el codigo y que no se ejecute:
