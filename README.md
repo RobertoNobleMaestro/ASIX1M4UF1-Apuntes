@@ -104,6 +104,7 @@ La etiqueta ```<img>``` no se puede anidar, Su estructura típica es simplemente
 #### Etiquetas HTML
 
 * Esto es un encabezado ```<h1>Lorem ipsum dolor sit</h1>```.
+* Esto es un contenedor sirve para meter dentro cosas como por ejemplo texto ```<div><h1></h1></div>```.
 * Esto es un subtitulo ```<h3>amet consectetur adipisicing elit. Debitis qui accusantium maiores reprehenderit.</h3>```
 * Esto es un parrafo ```<p>Molestias eos distinctio repellendus, accusamus voluptatibus fugit reprehenderit</p>```
 * Esto es una lista ordenada ```<ol>Lista ordenada<ol>```
@@ -235,26 +236,7 @@ Al aplicar de esta manera el css en el HTML se aplicara solamente al documento y
 
 Este se utiliza desde otro archivo CSS afectará este archivo a todos los HTML que estén vinculados.
 
-Se vincula de la siguiente manera: 
-
-###### ID (Atributo único)
-
-Sólo puede ser usado una vez
-
-En HTML
-```
-<a id="learn-code" href="https://www.codecademy.com">Click here to learn to code!</a>
-```
-
-En CSS
-```
-#learn-code {
-color: #2e69a3;  
-}
-```
-
-
-
+Se vincula de la siguiente manera: ```<link rel="stylesheet" href="nombre_del_archivo_css">```
 
 El cambio de color se puede hacer de las siguientes maneras:
 
@@ -262,3 +244,54 @@ El cambio de color se puede hacer de las siguientes maneras:
 2. Ejemplo de RGB hexadecimal:```<p style="color: #ff0000">Hexadecimal</p>```
 3. Ejemplo de RGB poniendo el nombre: ```<p style="color: red">Nombre</p>```
 
+#### Selectores de CCS
+
+##### Selector de tipo
+
+Selecciona todos los elementos de un tipo específico, como p para párrafos o h1 para encabezados de nivel 1.
+
+```p {
+  color: blue;
+}
+```
+
+##### Selector de Clase
+
+Selecciona elementos que tienen un atributo de clase específico.
+
+```.mi-clase {
+  font-size: 16px;
+}
+```
+
+##### Selector de ID
+
+Selecciona un elemento con un ID específico.
+
+#mi-id {
+  background-color: yellow;
+}
+
+##### Selector de Descendencia
+
+ Selecciona elementos secundarios de otro elemento.
+
+div p {
+  font-style: italic;
+}
+
+##### Selector de Atributo
+
+Selecciona elementos con un atributo específico.
+hr {
+  border: 1px solid black;
+}
+
+##### Selector Universal
+
+ Selecciona todos los elementos
+
+* {
+  margin: 0;
+  padding: 0;
+}
