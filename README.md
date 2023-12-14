@@ -268,30 +268,35 @@ Selecciona elementos que tienen un atributo de clase específico.
 
 Selecciona un elemento con un ID específico.
 
-#mi-id {
+```#mi-id {
   background-color: yellow;
 }
+```
 
 ##### Selector de Descendencia
 
  Selecciona elementos secundarios de otro elemento.
 
-div p {
+```div p {
   font-style: italic;
 }
+```
 
 ##### Selector de Atributo
 
 Selecciona elementos con un atributo específico.
-hr {
+
+```hr {
   border: 1px solid black;
 }
+```
 
 ##### Selector Universal
 
  Selecciona todos los elementos
 
-* {
+```* {
   margin: 0;
   padding: 0;
-}
+}`
+```
