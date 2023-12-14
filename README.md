@@ -33,7 +33,7 @@ Este es un ejemplo de como se podria combinar las dos maneras de hacer listas:
 
 
 
-Esto sirve para visualizar el codigo y que no se ejecute:
+Esto sirve para visualizar el codigo y que no se ejecute, se tiene que hacer con 6 comillas y entre medio poner el codigo ` `````` `:
 
 ```
 <html>
@@ -44,16 +44,26 @@ Esto sirve para visualizar el codigo y que no se ejecute:
     </body>
 </html> 
 ```
-
+Con este codigo se creara un enlace a una pagina o a un documento
+```[Esto es un enlace](https://joan23.fje.edu "Enlace a la web del cole")```
+Ejemplo:
 [Esto es un enlace](https://joan23.fje.edu "Enlace a la web del cole")
+
+De esta manera se pone una imagen en el documento
+
+```![Esto es una imagen del cielo](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-A3-Apuntes/blob/main/cielo.jpg "Este es el cielo de murcia")```
+Ejemplo:
 ![Esto es una imagen del cielo](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-A3-Apuntes/blob/main/cielo.jpg "Este es el cielo de murcia")
 
+Las tablas en Markdown se hace con esto |, para fijar el ancho de las columnas hay que poner esto, los guiones simbolizan el ancho ```|:-------:|```
 |Primera col|Segunda col|Tres col|
 |---------------|:----------:|---------:|
 |Col 2 es|Centrada|35€|
 |Col 3 es|Derecha|134€|
 |Estilo cebra|Gris|Blanco|
 |Clase|ASIX1|M4|
+
+Esto hace posible poder poner varias opciones y poder marcar la que quiera el usuario, se crearia asi y para marcar la opcion se pone una X dentro de los corchetes```-[X] Opción B```
 
 -[] Opción A
 
