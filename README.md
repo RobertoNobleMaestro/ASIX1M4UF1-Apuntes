@@ -156,15 +156,15 @@ La etiqueta ```<img>``` no se puede anidar, Su estructura típica es simplemente
 </body>
 ```
 
-### Tercer tema CSS
+## Tercer tema CSS
 
 CSS se utiliza para dar estilo a la estructura HTML.
 
-#### Maneras de aplicar css a HTML
+### Maneras de aplicar css a HTML
 
 Hay tres maneras para aplicar css en HTML:
 
-##### 1. En linea
+#### 1. En linea
 
 Esta manera de aplicar css se utiliza de manera directa en el HTML, se aplica en la etiqueta que tu quieras y se hace con style.
 
@@ -177,7 +177,7 @@ Ejemplo:
 </body>
 ```
 
-##### 2. Interno
+#### 2. Interno
 
 Al aplicar de esta manera el css en el HTML se aplicara solamente al documento y por lo tanto si hay más HTML's no les afectará.
 
@@ -232,7 +232,7 @@ Al aplicar de esta manera el css en el HTML se aplicara solamente al documento y
 </html>
 ```
 
-##### 3. Externo
+#### 3. Externo
 
 Este se utiliza desde otro archivo CSS afectará este archivo a todos los HTML que estén vinculados.
 
@@ -244,9 +244,25 @@ El cambio de color se puede hacer de las siguientes maneras:
 2. Ejemplo de RGB hexadecimal:```<p style="color: #ff0000">Hexadecimal</p>```
 3. Ejemplo de RGB poniendo el nombre: ```<p style="color: red">Nombre</p>```
 
-#### Selectores de CCS
+### Estilos de CCS
 
-##### Selector de tipo
+Los estilos de CSS se encargan de que el documento HTML tenga diferentes estilos dependiendo de los
+
+* ```Width``` (ancho): Controla el tamaño horizontal del elemento.
+* ```height``` (alto): Controla el tamaño vertical del elemento.
+* ```background-color``` (color de fondo): Define el color detrás del contenido.
+* ```color```: Establece el color del texto dentro del elemento.
+* ```text-align```(alineación de texto): Alinea el texto dentro del elemento.
+* ```padding``` (relleno): Agrega espacio alrededor del contenido dentro del elemento.
+* ```border``` (borde): Es una línea alrededor del contenido.
+* ```margin``` (margen): Es el espacio fuera del elemento, que lo separa de otros elementos.
+* ```text-decoration``` (decoración de texto): Puede subrayar o tachar el texto, o se puede poner que no tenga decoración el texto.
+* ```border-radius``` (radio del borde): suaviza las esquinas del borde.
+* ```font-size``` (tamaño de fuente): Controla el tamaño del texto.
+
+### Selectores de CCS
+
+#### Selector de tipo
 
 Selecciona todos los elementos de un tipo específico, como p para párrafos o h1 para encabezados de nivel 1.
 
@@ -255,7 +271,7 @@ Selecciona todos los elementos de un tipo específico, como p para párrafos o h
 }
 ```
 
-##### Selector de Clase
+#### Selector de Clase
 
 Selecciona elementos que tienen un atributo de clase específico.
 
@@ -264,7 +280,7 @@ Selecciona elementos que tienen un atributo de clase específico.
 }
 ```
 
-##### Selector de ID
+#### Selector de ID
 
 Selecciona un elemento con un ID específico.
 
@@ -273,7 +289,7 @@ Selecciona un elemento con un ID específico.
 }
 ```
 
-##### Selector de Descendencia
+#### Selector de Descendencia
 
  Selecciona elementos secundarios de otro elemento.
 
@@ -282,7 +298,7 @@ Selecciona un elemento con un ID específico.
 }
 ```
 
-##### Selector de Atributo
+#### Selector de Atributo
 
 Selecciona elementos con un atributo específico.
 
@@ -291,7 +307,7 @@ Selecciona elementos con un atributo específico.
 }
 ```
 
-##### Selector Universal
+#### Selector Universal
 
  Selecciona todos los elementos
 
