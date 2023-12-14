@@ -46,16 +46,21 @@ Esto sirve para visualizar el codigo y que no se ejecute, se tiene que hacer con
 ```
 Con este codigo se creara un enlace a una pagina o a un documento
 ```[Esto es un enlace](https://joan23.fje.edu "Enlace a la web del cole")```
+
 Ejemplo:
+
 [Esto es un enlace](https://joan23.fje.edu "Enlace a la web del cole")
 
 De esta manera se pone una imagen en el documento
 
 ```![Esto es una imagen del cielo](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-A3-Apuntes/blob/main/cielo.jpg "Este es el cielo de murcia")```
+
 Ejemplo:
+
 ![Esto es una imagen del cielo](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-A3-Apuntes/blob/main/cielo.jpg "Este es el cielo de murcia")
 
-Las tablas en Markdown se hace con esto |, para fijar el ancho de las columnas hay que poner esto, los guiones simbolizan el ancho ```|:-------:|```
+Las tablas en Markdown se hace con esto | y en medio va la información, para fijar el ancho de las columnas hay que poner esto ```|:-------:|```, los guiones simbolizan el ancho 
+
 |Primera col|Segunda col|Tres col|
 |---------------|:----------:|---------:|
 |Col 2 es|Centrada|35€|
