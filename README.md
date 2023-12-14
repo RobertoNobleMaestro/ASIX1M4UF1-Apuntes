@@ -8,12 +8,19 @@
 * Esta es otra variante para hacer un texto en negrita se hace con dos _: **negrita**
 * Este texto esta en negrita y en cursiva por lo tanto se hace con el * y con la_ ***negrita y cursiva***.
 
+Para hacer un indice ordenado se tiene que esrcribir asi:```1.```, y asi con el 2, 3 etc
+
 1. Primera opción de menú.
 2. Segunda opción de menú.
 3. Tercera opción de menú.
 
+Para hacer una lista desordenada hay que poner un asterisco detrás del texto o un guión.
+
 * Primera opción de lista desordenada.
 * Segunda opción de lista desordenada.
+
+
+Este es un ejemplo de como se podria combinar las dos maneras:
 
 - Tercera opción de lista desordenada.
     1. Primer submenú
@@ -21,9 +28,19 @@
 * Cuarta opción de lista desordenada.
   * Primer submenú
   * Segundo submenú
-
 + Quinta opción de lista desordenada.
 * Sexta opción de lista desordenada.
+
+´´´- Tercera opción de lista desordenada.
+    1. Primer submenú
+    2. Segundo submenú
+* Cuarta opción de lista desordenada.
+  * Primer submenú
+  * Segundo submenú
++ Quinta opción de lista desordenada.
+* Sexta opción de lista desordenada.
+´´´
+
 
 Esto sirve para visualizar el codigo y que no se ejecute:
 
@@ -246,7 +263,7 @@ El cambio de color se puede hacer de las siguientes maneras:
 
 ### Estilos de CCS
 
-Los estilos de CSS se encargan de que el documento HTML tenga diferentes estilos dependiendo de los
+Los estilos de CSS se encargan de que el documento HTML tenga diferentes estilos dependiendo de los estilos que quieras añadir
 
 * ```Width``` (ancho): Controla el tamaño horizontal del elemento.
 * ```height``` (alto): Controla el tamaño vertical del elemento.
