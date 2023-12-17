@@ -1,6 +1,26 @@
 # ASIX1M4UF1-Apuntes
 
-## Primer tema MARKDOWN
+## Primer tema GitHub
+
+### Crear repositorio
+
+Para crear un repositorio hay que ir a [Enlace a la pagina principal](https://github.com/ "Github")
+
+Después hay que darle al más que esta arriba a la derecha.
+
+![Imagen de github](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/captura_pagina_principal.png "boton más github")
+
+Después saldra un desplegable y hay que darle a "new repository"
+
+![Crear repositorio de github](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/desplegable_github.png "deplegable github")
+
+Una vez dentro hay que poner el nombre, y marcar la opción de "add a readme file"
+
+![Crear repositorio de github](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/desplegable_github.png "deplegable github")
+
+### Añadir pagina web a github pages
+
+## Segundo tema MARKDOWN
 
 * Para hacer un texto en cursiva se hace así: *cursiva*
 * Esta es otra variante para hacer un texto en cursiva: *cursiva*
@@ -76,7 +96,7 @@ Esto hace posible poder poner varias opciones y poder marcar la que quiera el us
 
 -[] Opción C
 
-## Segundo tema HTML
+## Tercer tema HTML
 
 ```<p> Contenido visible</p>```
 
@@ -179,7 +199,7 @@ La etiqueta ```<img>``` no se puede anidar, Su estructura típica es simplemente
 </body>
 ```
 
-## Tercer tema CSS
+## Cuarto tema CSS
 
 CSS se utiliza para dar estilo a la estructura HTML.
 
