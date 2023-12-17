@@ -14,9 +14,9 @@ Después saldra un desplegable y hay que darle a "new repository"
 
 ![Crear repositorio de github](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/desplegable_github.png "deplegable github")
 
-Una vez dentro hay que poner el nombre, y marcar la opción de "add a readme file"
+Una vez dentro hay que poner el nombre, y marcar la opción de "add a readme file". También si quieres poner que la gente vea o no el repositorio.
 
-![Crear repositorio de github](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/desplegable_github.png "deplegable github")
+![Rellenar datos de repositorio](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/rellenar_datos.png "ultima captura de github repositorio")
 
 ### Añadir pagina web a github pages
 
