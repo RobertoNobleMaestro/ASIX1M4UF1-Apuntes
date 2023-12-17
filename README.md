@@ -10,15 +10,27 @@ Después hay que darle al más que esta arriba a la derecha.
 
 ![Imagen de github](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/captura_pagina_principal.png "boton más github")
 
-Después saldra un desplegable y hay que darle a "new repository"
+Después saldra un desplegable y hay que darle a ```new repository```.
 
 ![Crear repositorio de github](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/desplegable_github.png "deplegable github")
 
-Una vez dentro hay que poner el nombre, y marcar la opción de "add a readme file". También si quieres poner que la gente vea o no el repositorio.
+Una vez dentro hay que poner el nombre, y marcar la opción de ```add a readme file```. También si quieres poner que la gente vea o no el repositorio.
 
 ![Rellenar datos de repositorio](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/rellenar_datos.png "ultima captura de github repositorio")
 
 ### Añadir pagina web a github pages
+
+Para crear el github pages primero hay que ir al repositorio que quiero que se vea darle clic a ```settings```.
+
+![Perfil barra](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/barra_github_perfil.png "Perfil barra")
+
+Saldran varias opciones a la izquierda pues hay que darle a ```pages```.
+
+![Darle clic a pages](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/opciones_de_repositorio.png "opciones del repositorio")
+
+Una vez dentro hay que darle a ```branch``` y cambiar de ```none``` a ```main``` y guardar los cambios.
+
+![Cambiar rama](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/rama_elegir.png "Cambiar rama")
 
 ## Segundo tema MARKDOWN
 
