@@ -236,7 +236,8 @@ Al aplicar de esta manera el css en el HTML se aplicara solamente al documento y
 
 Este se utiliza desde otro archivo CSS afectará este archivo a todos los HTML que estén vinculados.
 
-Se vincula de la siguiente manera: ```<link rel="stylesheet" href="nombre_del_archivo_css">```
+Se vincula de la siguiente manera: 
+```<link rel="stylesheet" href="nombre_del_archivo_css">```
 
 El cambio de color se puede hacer de las siguientes maneras:
 
@@ -300,3 +301,41 @@ Selecciona elementos con un atributo específico.
   padding: 0;
 }`
 ```
+
+## Cuarto Capitulo: DISEÑO RESPONSIVE
+
+El diseño responsive es un elemento que se utiliza en CSS para modificar el contenido de la pagina web dependiendo desde el dispositivo desde donde este el usuario.
+
+### Comandos DISEÑO RESPONSIVE:
+
+El comando que se utiliza para el diseño responsive, normalmente es ```flex```, este lo que hace es crear diseños flexibles en páginas web. Al aplicar esta propiedad a un contenedor, los elementos dentro de ese contenedor pueden ajustarse automáticamente según el tamaño de la pantalla.
+
+Ejemplo:
+```
+.row{
+    display: flex;
+}
+```
+![Alt text](./img/display-flex.webp)
+
+La propiedad ```float``` en CSS se utiliza para colocar un elemento que normalmente suelen ser ```<div>``` al lado que tu quieras cuando no queda más espacio. Cuando aplicas ```float``` a un elemento, este se desplaza hacia la direccion que hayas puesto y permite que otros elementos fluyan alrededor de él.
+
+```
+.column-4{
+    float: left;
+}
+```
+
+La propiedad  ``````box-sizing`````` te permite decidir cómo calcular el tamaño total de esa caja.
+
+Si usas ```box-sizing: content-box``` , el tamaño que especifiques se aplica solo al contenido de la caja. El relleno y el borde se suman al tamaño total.
+
+Si usas ```box-sizing: border-box```, el tamaño que especifiques se aplica a toda la caja, incluyendo el contenido, el relleno y el borde. Esto puede hacer que sea más fácil planificar y controlar el tamaño de tus cajas.
+
+En resumen, ```box-sizing``` te ayuda a decidir si el tamaño que estableces afecta solo al contenido o a toda la caja con su relleno y borde.
+```
+*{
+    box-sizing: border-box;     
+}
+```
+
