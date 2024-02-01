@@ -1,6 +1,38 @@
 # ASIX1M4UF1-Apuntes
 
-## Primer tema MARKDOWN
+## Primer tema GitHub
+
+### Crear repositorio
+
+Para crear un repositorio hay que ir a [Enlace a la pagina principal](https://github.com/ "Github")
+
+Después hay que darle al más que esta arriba a la derecha.
+
+![Imagen de github](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/captura_pagina_principal.png "boton más github")
+
+Después saldra un desplegable y hay que darle a ```new repository```.
+
+![Crear repositorio de github](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/desplegable_github.png "deplegable github")
+
+Una vez dentro hay que poner el nombre, y marcar la opción de ```add a readme file```. También si quieres poner que la gente vea o no el repositorio.
+
+![Rellenar datos de repositorio](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/rellenar_datos.png "ultima captura de github repositorio")
+
+### Añadir pagina web a github pages
+
+Para crear el github pages primero hay que ir al repositorio que quiero que se vea darle clic a ```settings```.
+
+![Perfil barra](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/barra_github_perfil.png "Perfil barra")
+
+Saldran varias opciones a la izquierda pues hay que darle a ```pages```.
+
+![Darle clic a pages](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/opciones_de_repositorio.png "opciones del repositorio")
+
+Una vez dentro hay que darle a ```branch``` y cambiar de ```none``` a ```main``` y guardar los cambios.
+
+![Cambiar rama](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/rama_elegir.png "Cambiar rama")
+
+## Segundo tema MARKDOWN
 
 * Para hacer un texto en cursiva se hace así: *cursiva*
 * Esta es otra variante para hacer un texto en cursiva: *cursiva*
@@ -8,12 +40,19 @@
 * Esta es otra variante para hacer un texto en negrita se hace con dos _: **negrita**
 * Este texto esta en negrita y en cursiva por lo tanto se hace con el * y con la_ ***negrita y cursiva***.
 
+Para hacer un indice ordenado se tiene que esrcribir asi:```1.```, y asi con el 2, 3 etc
+
 1. Primera opción de menú.
 2. Segunda opción de menú.
 3. Tercera opción de menú.
 
+Para hacer una lista desordenada hay que poner un asterisco detrás del texto o un guión.
+
 * Primera opción de lista desordenada.
 * Segunda opción de lista desordenada.
+
+
+Este es un ejemplo de como se podria combinar las dos maneras de hacer listas:
 
 - Tercera opción de lista desordenada.
     1. Primer submenú
@@ -21,11 +60,12 @@
 * Cuarta opción de lista desordenada.
   * Primer submenú
   * Segundo submenú
-
 + Quinta opción de lista desordenada.
 * Sexta opción de lista desordenada.
 
-Esto sirve para visualizar el codigo y que no se ejecute:
+
+
+Esto sirve para visualizar el codigo y que no se ejecute, se tiene que hacer con 6 comillas y entre medio poner el codigo ` `````` `:
 
 ```
 <html>
@@ -36,9 +76,22 @@ Esto sirve para visualizar el codigo y que no se ejecute:
     </body>
 </html> 
 ```
+Con este codigo se creara un enlace a una pagina o a un documento
+```[Esto es un enlace](https://joan23.fje.edu "Enlace a la web del cole")```
+
+Ejemplo:
 
 [Esto es un enlace](https://joan23.fje.edu "Enlace a la web del cole")
+
+De esta manera se pone una imagen en el documento
+
+```![Esto es una imagen del cielo](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-A3-Apuntes/blob/main/cielo.jpg "Este es el cielo de murcia")```
+
+Ejemplo:
+
 ![Esto es una imagen del cielo](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-A3-Apuntes/blob/main/cielo.jpg "Este es el cielo de murcia")
+
+Las tablas en Markdown se hace con esto | y en medio va la información, para fijar el ancho de las columnas hay que poner esto ```|:-------:|```, los guiones simbolizan el ancho 
 
 |Primera col|Segunda col|Tres col|
 |---------------|:----------:|---------:|
@@ -47,13 +100,15 @@ Esto sirve para visualizar el codigo y que no se ejecute:
 |Estilo cebra|Gris|Blanco|
 |Clase|ASIX1|M4|
 
+Esto hace posible poder poner varias opciones y poder marcar la que quiera el usuario, se crearia asi y para marcar la opcion se pone una X dentro de los corchetes```-[X] Opción B```
+
 -[] Opción A
 
 -[X] Opción B
 
 -[] Opción C
 
-## Segundo tema HTML
+## Tercer tema HTML
 
 ```<p> Contenido visible</p>```
 
@@ -156,15 +211,15 @@ La etiqueta ```<img>``` no se puede anidar, Su estructura típica es simplemente
 </body>
 ```
 
-### Tercer tema CSS
+## Cuarto tema CSS
 
 CSS se utiliza para dar estilo a la estructura HTML.
 
-#### Maneras de aplicar css a HTML
+### Maneras de aplicar css a HTML
 
 Hay tres maneras para aplicar css en HTML:
 
-##### 1. En linea
+#### 1. En linea
 
 Esta manera de aplicar css se utiliza de manera directa en el HTML, se aplica en la etiqueta que tu quieras y se hace con style.
 
@@ -177,7 +232,7 @@ Ejemplo:
 </body>
 ```
 
-##### 2. Interno
+#### 2. Interno
 
 Al aplicar de esta manera el css en el HTML se aplicara solamente al documento y por lo tanto si hay más HTML's no les afectará.
 
@@ -232,7 +287,7 @@ Al aplicar de esta manera el css en el HTML se aplicara solamente al documento y
 </html>
 ```
 
-##### 3. Externo
+#### 3. Externo
 
 Este se utiliza desde otro archivo CSS afectará este archivo a todos los HTML que estén vinculados.
 
@@ -245,9 +300,25 @@ El cambio de color se puede hacer de las siguientes maneras:
 2. Ejemplo de RGB hexadecimal:```<p style="color: #ff0000">Hexadecimal</p>```
 3. Ejemplo de RGB poniendo el nombre: ```<p style="color: red">Nombre</p>```
 
-#### Selectores de CCS
+### Estilos de CCS
 
-##### Selector de tipo
+Los estilos de CSS se encargan de que el documento HTML tenga diferentes estilos dependiendo de los estilos que quieras añadir
+
+* ```Width``` (ancho): Controla el tamaño horizontal del elemento.
+* ```height``` (alto): Controla el tamaño vertical del elemento.
+* ```background-color``` (color de fondo): Define el color detrás del contenido.
+* ```color```: Establece el color del texto dentro del elemento.
+* ```text-align```(alineación de texto): Alinea el texto dentro del elemento.
+* ```padding``` (relleno): Agrega espacio alrededor del contenido dentro del elemento.
+* ```border``` (borde): Es una línea alrededor del contenido.
+* ```margin``` (margen): Es el espacio fuera del elemento, que lo separa de otros elementos.
+* ```text-decoration``` (decoración de texto): Puede subrayar o tachar el texto, o se puede poner que no tenga decoración el texto.
+* ```border-radius``` (radio del borde): suaviza las esquinas del borde.
+* ```font-size``` (tamaño de fuente): Controla el tamaño del texto.
+
+### Selectores de CCS
+
+#### Selector de tipo
 
 Selecciona todos los elementos de un tipo específico, como p para párrafos o h1 para encabezados de nivel 1.
 
@@ -256,7 +327,7 @@ Selecciona todos los elementos de un tipo específico, como p para párrafos o h
 }
 ```
 
-##### Selector de Clase
+#### Selector de Clase
 
 Selecciona elementos que tienen un atributo de clase específico.
 
@@ -265,7 +336,7 @@ Selecciona elementos que tienen un atributo de clase específico.
 }
 ```
 
-##### Selector de ID
+#### Selector de ID
 
 Selecciona un elemento con un ID específico.
 
@@ -274,7 +345,7 @@ Selecciona un elemento con un ID específico.
 }
 ```
 
-##### Selector de Descendencia
+#### Selector de Descendencia
 
  Selecciona elementos secundarios de otro elemento.
 
@@ -283,7 +354,7 @@ Selecciona un elemento con un ID específico.
 }
 ```
 
-##### Selector de Atributo
+#### Selector de Atributo
 
 Selecciona elementos con un atributo específico.
 
@@ -292,14 +363,14 @@ Selecciona elementos con un atributo específico.
 }
 ```
 
-##### Selector Universal
+#### Selector Universal
 
  Selecciona todos los elementos
 
 ```* {
   margin: 0;
   padding: 0;
-}`
+}
 ```
 
 ## Cuarto Capitulo: DISEÑO RESPONSIVE
