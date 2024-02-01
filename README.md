@@ -377,17 +377,16 @@ Selecciona elementos con un atributo específico.
 
 El diseño responsive es un elemento que se utiliza en CSS para modificar el contenido de la pagina web dependiendo desde el dispositivo desde donde este el usuario.
 
-### Comandos DISEÑO RESPONSIVE:
+### Comandos DISEÑO RESPONSIVE
 
 El comando que se utiliza para el diseño responsive, normalmente es ```flex```, este lo que hace es crear diseños flexibles en páginas web. Al aplicar esta propiedad a un contenedor, los elementos dentro de ese contenedor pueden ajustarse automáticamente según el tamaño de la pantalla.
 
 Ejemplo:
-```
-.row{
+
+```.row{
     display: flex;
 }
 ```
-![Alt text](./img/display-flex.webp)
 
 La propiedad ```float``` en CSS se utiliza para colocar un elemento que normalmente suelen ser ```<div>``` al lado que tu quieras cuando no queda más espacio. Cuando aplicas ```float``` a un elemento, este se desplaza hacia la direccion que hayas puesto y permite que otros elementos fluyan alrededor de él.
 
@@ -410,4 +409,46 @@ En resumen, ```box-sizing``` te ayuda a decidir si el tamaño que estableces afe
 }
 ```
 
-sdasdas
+### Estilos para la alineación
+
+Hay diferentes comandos para realizar la alineación de la página web, uno de ellos viene a ser el ```aling-items``` que mostrará todo el contenido del contenedor en el espacio del medio, como también se puede mostrar en la izquierda que seria ```start``` y en la derecha del todo que seria ```end```.
+
+```
+.flex{
+    align-items: center;
+}
+```
+![Alt text](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/box-sizing.jpg)
+
+
+```justify-content``` es otro parametro dentro de css que también se utiliza bastante, este lo que hace es como dice justificar el contenido, también se puede poner en medio a la izquierda y en el centro como ```align-items```, normalmente se utiliza para ponerlo en medio, pero todo depende de como se este haciendo la pagina web.
+
+```
+.flex{
+    justify-content: center;
+}
+```
+
+Y por ultimo como uno de los mas importantes esta ```flex-direction```, este lo que hace es controla la orientación de los elementos en un contenedor flexible.
+
+```
+.flex{
+    flex-direction: column;
+}
+```
+
+### Mediaquery
+
+Se utilizan las ```mediaquerys``` para aplicar estilos diferentes a un documento HTML según las características del dispositivo en el que se está visualizando, como el tamaño de la pantalla, la orientación, la resolución etc
+
+```
+@media only screen and (max-width: 700px){
+/* Reglas para el dispositivo*/
+.column-3{
+    width: 100%;
+}
+.column-4{
+    width: 50%;
+}
+}
+```
