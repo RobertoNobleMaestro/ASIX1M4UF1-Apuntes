@@ -408,6 +408,7 @@ En resumen, ```box-sizing``` te ayuda a decidir si el tamaño que estableces afe
     box-sizing: border-box;     
 }
 ```
+![Alt text](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/box-sizing.jpg)
 
 ### Estilos para la alineación
 
@@ -418,7 +419,7 @@ Hay diferentes comandos para realizar la alineación de la página web, uno de e
     align-items: center;
 }
 ```
-![Alt text](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/box-sizing.jpg)
+![Alt text](https://github.com/RobertoNobleMaestro/ASIX1M4UF1-Apuntes/blob/main/img/display-flex.webp)
 
 
 ```justify-content``` es otro parametro dentro de css que también se utiliza bastante, este lo que hace es como dice justificar el contenido, también se puede poner en medio a la izquierda y en el centro como ```align-items```, normalmente se utiliza para ponerlo en medio, pero todo depende de como se este haciendo la pagina web.
